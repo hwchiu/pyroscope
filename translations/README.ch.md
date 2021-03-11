@@ -7,40 +7,40 @@
 [![GoDoc](https://godoc.org/github.com/pyroscope-io/pyroscope?status.svg)](https://godoc.org/github.com/pyroscope-io/pyroscope)
 
 <h2>
-  <a href="https://pyroscope.io/">網路</a>
+  <a href="https://pyroscope.io/">官網</a>
   <span> • </span>
-  <a href="https://pyroscope.io/docs">芝料</a>
+  <a href="https://pyroscope.io/docs">文件</a>
   <span> • </span>
-  <a href="https://demo.pyroscope.io/">示範</a>
+  <a href="https://demo.pyroscope.io/">示範網站</a>
   <span> • </span>
   <a href="/examples">範例</a>
   <span> • </span>
-  <a href="https://pyroscope.io/slack">SLACK</a>
+  <a href="https://pyroscope.io/slack">SLACK 頻道</a>
 </h2>
 
-Pyroscope 是個開放源碼的連續側寫網路平台。它能夠幫你：
-* 挑出源碼的性能錯誤
-* 解決CPU過度利用的問題
-* 理解應用程式的call tree
-* 一直跟蹤軟體裡的變化
+Pyroscope 是個基於開放原始碼的效能分析平台，其能夠幫助你:
+* 找出程式碼中效能問題
+* 解決 CPU 高使用率的問題
+* 幫助瞭解應用程式的運作細節，譬如 Call Trace
+* 隨時間去追蹤任何系統變化
 
-## 演示芝料
+## Live Demo
 
-[🔥 Pyroscope的演示芝料 🔥](https://demo.pyroscope.io/)
+[🔥 Pyroscope的Live Demo🔥](https://demo.pyroscope.io/)
 
 [![Pyroscope GIF Demo](https://user-images.githubusercontent.com/662636/105124618-55b9df80-5a8f-11eb-8ad5-0e18c17c827d.gif)](https://demo.pyroscope.io/)
 
 
-## 機能
+## 特色
 
-* 能夠存下好幾年來多個應用程式累積出來的資料
-* 能夠讓你一次看見好幾年來的資料或著單單看個別的事件
-* CPU使用數量低
-* 數據壓縮效率高，軟盤的空間需求低
-* 光滑的UI
-* Go、Ruby、Python都兼容
+* 能夠幫助多個應用程式儲存多年的系統分析資料
+* 透過時間區間或特定事件來檢視多年儲存資料
+* 低CPU 開銷
+* 資料壓縮效率高，硬碟空間需求低
+* 簡潔易用的UI
+* 支持 Go、Ruby、Python 等程式語言
 
-## 在自己電腦上試Pyroscope的三步驟：
+## 三步驟架設 Pyroscope 於本地環境:
 
 ```shell
 # install pyroscope
@@ -53,10 +53,10 @@ pyroscope server
 pyroscope exec python manage.py runserver
 ```
 
-## 說明書
+## 說明文件
 
-如果想找Pyroscope跟其他程式語言的用法、灌到Linux上、或著在生產環境裡用法的說明，請查看我們的說明書：
-* [起點](https://pyroscope.io/docs/)
+請查看下列文件來學習如何使用 Pyroscope 於其他程式語言上、安裝於 Linux 環境或是部署於生產環境中:
+* [文件說明](https://pyroscope.io/docs/)
 * [部署說明書](https://pyroscope.io/docs/deployment)
 * [開發人員說明書](https://pyroscope.io/docs/developer-guide)
 
@@ -65,23 +65,23 @@ pyroscope exec python manage.py runserver
 
 ![Deployment Diagram](../.github/markdown-images/deployment.svg)
 
-## 怎樣下載
+## 下載方式
 
-發展給MacOS、Linux、和Docker最新版的Pyroscope在下載頁面上能下載 [Downloads page](https://pyroscope.io/downloads/).
+你可以從[Downloads page](https://pyroscope.io/downloads/) 中下載最新版本的 pyroscope, 目前支援 macOS, Linux 及 Docker 等多種平台
 
-## 兼容的程式語言
+## 支持的程式語言
 
 * [x] Ruby
 * [x] Python
 * [x] Go
-* [ ] Node (即將到來)
+* [x] Node
 * [ ] Linux eBPF (即將到來)
 
-請在我們的Slack上告訴我們你還想看倒哪些程式語言 [our slack](https://pyroscope.io/slack).
+有任何想要支持的語言請歡迎到 Slack 上告訴開發團隊 [our slack](https://pyroscope.io/slack).
 
-## 怎樣貢獻
+## 如何貢獻 
 
-如果想當貢獻者，請查看我們的貢獻說明書。 [Contributing Guide](/CONTRIBUTING.md)
+請查看我們的貢獻守則來瞭解如何加入成為貢獻者。 [Contributing Guide](/CONTRIBUTING.md)
 
 ### 感謝全部幫助發展Pyroscope的貢獻者！
 
